@@ -1,0 +1,41 @@
+@model flightreservation.Models.RouteDetail
+
+@{
+    Layout="AdminLayout";
+    ViewData["Title"] = "Edit";
+}
+<h4>Edit Route Details</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Routeid" class="control-label">Route id</label>
+                <input asp-for="Routeid" class="form-control" />
+                <span asp-validation-for="Routeid" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Flightid" class="control-label">Flight id</label>
+                <input asp-for="Flightid" class="form-control" />
+                <span asp-validation-for="Flightid" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Routedesc" class="control-label">Route Description</label>
+                <input asp-for="Routedesc" class="form-control" />
+                <span asp-validation-for="Routedesc" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="getallRoutes">Back to Routes List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

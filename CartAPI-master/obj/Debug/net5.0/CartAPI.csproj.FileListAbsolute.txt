@@ -1,0 +1,60 @@
+G:\CTS Data\ID006\Project\CartAPI\bin\Debug\net5.0\appsettings.Development.json
+G:\CTS Data\ID006\Project\CartAPI\bin\Debug\net5.0\appsettings.json
+G:\CTS Data\ID006\Project\CartAPI\bin\Debug\net5.0\CartAPI.exe
+G:\CTS Data\ID006\Project\CartAPI\bin\Debug\net5.0\CartAPI.deps.json
+G:\CTS Data\ID006\Project\CartAPI\bin\Debug\net5.0\CartAPI.runtimeconfig.json
+G:\CTS Data\ID006\Project\CartAPI\bin\Debug\net5.0\CartAPI.runtimeconfig.dev.json
+G:\CTS Data\ID006\Project\CartAPI\bin\Debug\net5.0\CartAPI.dll
+G:\CTS Data\ID006\Project\CartAPI\bin\Debug\net5.0\ref\CartAPI.dll
+G:\CTS Data\ID006\Project\CartAPI\bin\Debug\net5.0\CartAPI.pdb
+G:\CTS Data\ID006\Project\CartAPI\bin\Debug\net5.0\Microsoft.OpenApi.dll
+G:\CTS Data\ID006\Project\CartAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+G:\CTS Data\ID006\Project\CartAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+G:\CTS Data\ID006\Project\CartAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+G:\CTS Data\ID006\Project\CartAPI\obj\Debug\net5.0\CartAPI.csprojAssemblyReference.cache
+G:\CTS Data\ID006\Project\CartAPI\obj\Debug\net5.0\CartAPI.GeneratedMSBuildEditorConfig.editorconfig
+G:\CTS Data\ID006\Project\CartAPI\obj\Debug\net5.0\CartAPI.AssemblyInfoInputs.cache
+G:\CTS Data\ID006\Project\CartAPI\obj\Debug\net5.0\CartAPI.AssemblyInfo.cs
+G:\CTS Data\ID006\Project\CartAPI\obj\Debug\net5.0\CartAPI.csproj.CoreCompileInputs.cache
+G:\CTS Data\ID006\Project\CartAPI\obj\Debug\net5.0\CartAPI.MvcApplicationPartsAssemblyInfo.cs
+G:\CTS Data\ID006\Project\CartAPI\obj\Debug\net5.0\CartAPI.MvcApplicationPartsAssemblyInfo.cache
+G:\CTS Data\ID006\Project\CartAPI\obj\Debug\net5.0\staticwebassets\CartAPI.StaticWebAssets.Manifest.cache
+G:\CTS Data\ID006\Project\CartAPI\obj\Debug\net5.0\staticwebassets\CartAPI.StaticWebAssets.xml
+G:\CTS Data\ID006\Project\CartAPI\obj\Debug\net5.0\scopedcss\bundle\CartAPI.styles.css
+G:\CTS Data\ID006\Project\CartAPI\obj\Debug\net5.0\CartAPI.RazorTargetAssemblyInfo.cache
+G:\CTS Data\ID006\Project\CartAPI\obj\Debug\net5.0\CartAPI.csproj.CopyComplete
+G:\CTS Data\ID006\Project\CartAPI\obj\Debug\net5.0\CartAPI.dll
+G:\CTS Data\ID006\Project\CartAPI\obj\Debug\net5.0\ref\CartAPI.dll
+G:\CTS Data\ID006\Project\CartAPI\obj\Debug\net5.0\CartAPI.pdb
+G:\CTS Data\ID006\Project\CartAPI\obj\Debug\net5.0\CartAPI.genruntimeconfig.cache
+G:\CTS Data\ID006\Project\CartAPI\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\l.g.lmb5\Desktop\new\CartAPI-master\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\l.g.lmb5\Desktop\new\CartAPI-master\bin\Debug\net5.0\appsettings.json
+C:\Users\l.g.lmb5\Desktop\new\CartAPI-master\bin\Debug\net5.0\CartAPI.exe
+C:\Users\l.g.lmb5\Desktop\new\CartAPI-master\bin\Debug\net5.0\CartAPI.deps.json
+C:\Users\l.g.lmb5\Desktop\new\CartAPI-master\bin\Debug\net5.0\CartAPI.runtimeconfig.json
+C:\Users\l.g.lmb5\Desktop\new\CartAPI-master\bin\Debug\net5.0\CartAPI.runtimeconfig.dev.json
+C:\Users\l.g.lmb5\Desktop\new\CartAPI-master\bin\Debug\net5.0\CartAPI.dll
+C:\Users\l.g.lmb5\Desktop\new\CartAPI-master\bin\Debug\net5.0\ref\CartAPI.dll
+C:\Users\l.g.lmb5\Desktop\new\CartAPI-master\bin\Debug\net5.0\CartAPI.pdb
+C:\Users\l.g.lmb5\Desktop\new\CartAPI-master\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\l.g.lmb5\Desktop\new\CartAPI-master\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\l.g.lmb5\Desktop\new\CartAPI-master\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\l.g.lmb5\Desktop\new\CartAPI-master\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\l.g.lmb5\Desktop\new\CartAPI-master\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\l.g.lmb5\Desktop\new\CartAPI-master\obj\Debug\net5.0\CartAPI.csproj.AssemblyReference.cache
+C:\Users\l.g.lmb5\Desktop\new\CartAPI-master\obj\Debug\net5.0\CartAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\l.g.lmb5\Desktop\new\CartAPI-master\obj\Debug\net5.0\CartAPI.AssemblyInfoInputs.cache
+C:\Users\l.g.lmb5\Desktop\new\CartAPI-master\obj\Debug\net5.0\CartAPI.AssemblyInfo.cs
+C:\Users\l.g.lmb5\Desktop\new\CartAPI-master\obj\Debug\net5.0\CartAPI.csproj.CoreCompileInputs.cache
+C:\Users\l.g.lmb5\Desktop\new\CartAPI-master\obj\Debug\net5.0\CartAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\l.g.lmb5\Desktop\new\CartAPI-master\obj\Debug\net5.0\CartAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\l.g.lmb5\Desktop\new\CartAPI-master\obj\Debug\net5.0\staticwebassets\CartAPI.StaticWebAssets.Manifest.cache
+C:\Users\l.g.lmb5\Desktop\new\CartAPI-master\obj\Debug\net5.0\staticwebassets\CartAPI.StaticWebAssets.xml
+C:\Users\l.g.lmb5\Desktop\new\CartAPI-master\obj\Debug\net5.0\scopedcss\bundle\CartAPI.styles.css
+C:\Users\l.g.lmb5\Desktop\new\CartAPI-master\obj\Debug\net5.0\CartAPI.RazorTargetAssemblyInfo.cache
+C:\Users\l.g.lmb5\Desktop\new\CartAPI-master\obj\Debug\net5.0\CartAPI.csproj.CopyComplete
+C:\Users\l.g.lmb5\Desktop\new\CartAPI-master\obj\Debug\net5.0\CartAPI.dll
+C:\Users\l.g.lmb5\Desktop\new\CartAPI-master\obj\Debug\net5.0\ref\CartAPI.dll
+C:\Users\l.g.lmb5\Desktop\new\CartAPI-master\obj\Debug\net5.0\CartAPI.pdb
+C:\Users\l.g.lmb5\Desktop\new\CartAPI-master\obj\Debug\net5.0\CartAPI.genruntimeconfig.cache

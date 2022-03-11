@@ -1,0 +1,16 @@
+C:\Users\l.g.lmb5\Desktop\new\delg\obj\Debug\net5.0\delg.csproj.AssemblyReference.cache
+C:\Users\l.g.lmb5\Desktop\new\delg\obj\Debug\net5.0\delg.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\l.g.lmb5\Desktop\new\delg\obj\Debug\net5.0\delg.AssemblyInfoInputs.cache
+C:\Users\l.g.lmb5\Desktop\new\delg\obj\Debug\net5.0\delg.AssemblyInfo.cs
+C:\Users\l.g.lmb5\Desktop\new\delg\obj\Debug\net5.0\delg.csproj.CoreCompileInputs.cache
+C:\Users\l.g.lmb5\Desktop\new\delg\bin\Debug\net5.0\delg.exe
+C:\Users\l.g.lmb5\Desktop\new\delg\bin\Debug\net5.0\delg.deps.json
+C:\Users\l.g.lmb5\Desktop\new\delg\bin\Debug\net5.0\delg.runtimeconfig.json
+C:\Users\l.g.lmb5\Desktop\new\delg\bin\Debug\net5.0\delg.runtimeconfig.dev.json
+C:\Users\l.g.lmb5\Desktop\new\delg\bin\Debug\net5.0\delg.dll
+C:\Users\l.g.lmb5\Desktop\new\delg\bin\Debug\net5.0\ref\delg.dll
+C:\Users\l.g.lmb5\Desktop\new\delg\bin\Debug\net5.0\delg.pdb
+C:\Users\l.g.lmb5\Desktop\new\delg\obj\Debug\net5.0\delg.dll
+C:\Users\l.g.lmb5\Desktop\new\delg\obj\Debug\net5.0\ref\delg.dll
+C:\Users\l.g.lmb5\Desktop\new\delg\obj\Debug\net5.0\delg.pdb
+C:\Users\l.g.lmb5\Desktop\new\delg\obj\Debug\net5.0\delg.genruntimeconfig.cache

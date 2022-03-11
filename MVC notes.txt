@@ -1,0 +1,126 @@
+MVC core: - web application
+
+In .NET core,3 types of web application
+1. Razor pages (web forms/pages)
+2. MVC
+3. API
+
+Website - collection of web pages(static/dynamic)
+Web Application - piece of s/w which is running on web server
+
+webapp = website+logic
+
+Web server -can host the websites
+App server - can host webapps(websites)
+
+IIS -Internet Information Server
+
+dotnet new mvc --name firstmvcprj
+
+MVC:
+Model - fetch from any datasource + logic
+View - Presentation layer (list,table,paragraph)
+Controller - 
+
+Three tier architecture
+1. DAL
+2. BAL/BLL
+3. Presentation
+
+Why MVC:
+1. web pages - .aspx
+browser - https://urldefense.proofpoint.com/v2/url?u=http-3A__localhost-3A23474-255Cfirst.aspx&d=DwIGAg&c=iBlh5sfyJetM3CZrWQ7qPRSW4DDbeEqhetx-pU5sAiQ&r=M3i1JYYfxlPUcR1W7pDSbGgpUrV8Fkdje21Mb4ja9QQ&m=UDgK-nIKwTHpExoySzh65ZWOS-aJK6HjO5wMS0oQW8Rxy82nqsVdoOB1cR8fB40E&s=nIdPE7HrUDG23LcPm3wvhiv0Q55qrW2BmK0cIUpYBQk&e= 
+2 parts - UI part - 
+logic - executed on the event
+Layer of abstraction
+2. Separation of concerns
+Model - DAL+BAL
+Controller - model and view
+View - Presentation layer
+
+Folder Structure of MVC project:
+
+Controller is a class which is a collection of action methods
+method - return type - data
+action method - returns view
+
+Views are combination of cs(csharp) and html.
+
+Dependency Injection
+
+Startup.cs
+1. constructor
+2. property
+3. ConfigureServices()
+4. Configure()
+
+Routing in MVC:
+
+https://urldefense.proofpoint.com/v2/url?u=https-3A__localhost-3A5001-255Ccontrollername-255Cactionmethodname&d=DwIGAg&c=iBlh5sfyJetM3CZrWQ7qPRSW4DDbeEqhetx-pU5sAiQ&r=M3i1JYYfxlPUcR1W7pDSbGgpUrV8Fkdje21Mb4ja9QQ&m=UDgK-nIKwTHpExoySzh65ZWOS-aJK6HjO5wMS0oQW8Rxy82nqsVdoOB1cR8fB40E&s=xOH2UnKpNEjkNdSRv9ggrRNwU98N4-mG4fhC6BO4ooQ&e=   -> view
+
+Configurations - web.config
+.NET core - .json (appsettings.json)
+
+@model - binding a model to a view
+@Model - dynamic property
+
+
+Http Verbs:
+
+HttpGet - first time when we request for a page
+HttpPost - we are posting the data of the page back to the server
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

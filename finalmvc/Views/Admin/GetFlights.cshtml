@@ -1,0 +1,105 @@
+@model IEnumerable<finalmvc.Models.FlightD>
+
+@{
+    ViewData["Title"] = "GetFlights";
+    Layout="AdminLayout";
+}
+
+<style>
+body{
+    background-color:cadetblue;
+}
+h1{
+    color:black;
+}
+table {
+  border: 2px solid black;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 2px solid black;
+}
+h1{
+    text-align:center;
+}
+tr:hover {background-color: white;}
+</style>
+<br>
+<h1>Flight Details</h1>
+<hr>
+<style>
+
+</style>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Fid)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Fname)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Source)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Destination)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Departuretime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Arrivaltime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Totalcapacity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Costperseat)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Fid)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Fname)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Source)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Destination)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Departuretime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Arrivaltime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Totalcapacity)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Costperseat)
+            </td>
+            <td>
+            <ul>
+                @Html.ActionLink("Edit", "Edit", new { id=item.Fid},new{@class="editrecord btn btn-warning btn-sm"}) 
+            </ul>
+            <ul>
+
+                @Html.ActionLink("Delete", "Delete", new { id=item.Fid},new{@class="editrecord btn btn-danger btn-sm"})
+                </ul>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

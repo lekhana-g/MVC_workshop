@@ -1,0 +1,16 @@
+C:\Users\l.g.lmb5\Desktop\new\secondproj\bin\Debug\net5.0\secondproj.exe
+C:\Users\l.g.lmb5\Desktop\new\secondproj\bin\Debug\net5.0\secondproj.deps.json
+C:\Users\l.g.lmb5\Desktop\new\secondproj\bin\Debug\net5.0\secondproj.runtimeconfig.json
+C:\Users\l.g.lmb5\Desktop\new\secondproj\bin\Debug\net5.0\secondproj.runtimeconfig.dev.json
+C:\Users\l.g.lmb5\Desktop\new\secondproj\bin\Debug\net5.0\secondproj.dll
+C:\Users\l.g.lmb5\Desktop\new\secondproj\bin\Debug\net5.0\ref\secondproj.dll
+C:\Users\l.g.lmb5\Desktop\new\secondproj\bin\Debug\net5.0\secondproj.pdb
+C:\Users\l.g.lmb5\Desktop\new\secondproj\obj\Debug\net5.0\secondproj.csproj.AssemblyReference.cache
+C:\Users\l.g.lmb5\Desktop\new\secondproj\obj\Debug\net5.0\secondproj.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\l.g.lmb5\Desktop\new\secondproj\obj\Debug\net5.0\secondproj.AssemblyInfoInputs.cache
+C:\Users\l.g.lmb5\Desktop\new\secondproj\obj\Debug\net5.0\secondproj.AssemblyInfo.cs
+C:\Users\l.g.lmb5\Desktop\new\secondproj\obj\Debug\net5.0\secondproj.csproj.CoreCompileInputs.cache
+C:\Users\l.g.lmb5\Desktop\new\secondproj\obj\Debug\net5.0\secondproj.dll
+C:\Users\l.g.lmb5\Desktop\new\secondproj\obj\Debug\net5.0\ref\secondproj.dll
+C:\Users\l.g.lmb5\Desktop\new\secondproj\obj\Debug\net5.0\secondproj.pdb
+C:\Users\l.g.lmb5\Desktop\new\secondproj\obj\Debug\net5.0\secondproj.genruntimeconfig.cache

@@ -1,0 +1,23 @@
+<form asp-action="Addnumbers">
+    <div>
+        <asp:label id="firstnum">First number</asp:label>
+        <input id="first" name="first"/>
+    </div>
+    <div>
+        <asp:label id="Secondnum">Second number</asp:label>
+        <input id="second" name="second"/>
+    </div>
+    <div>
+        <input type="submit" value="add"/>
+    </div>
+    @{
+    if(ViewBag.result!=null){
+        <h1>The result is @ViewBag.result</h1>
+    }
+    else{
+        
+    }
+    }
+
+
+</form>

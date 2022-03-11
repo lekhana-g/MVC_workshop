@@ -1,0 +1,16 @@
+C:\Users\l.g.lmb5\Desktop\new\linqs\obj\Debug\net5.0\linqs.csproj.AssemblyReference.cache
+C:\Users\l.g.lmb5\Desktop\new\linqs\obj\Debug\net5.0\linqs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\l.g.lmb5\Desktop\new\linqs\obj\Debug\net5.0\linqs.AssemblyInfoInputs.cache
+C:\Users\l.g.lmb5\Desktop\new\linqs\obj\Debug\net5.0\linqs.AssemblyInfo.cs
+C:\Users\l.g.lmb5\Desktop\new\linqs\obj\Debug\net5.0\linqs.csproj.CoreCompileInputs.cache
+C:\Users\l.g.lmb5\Desktop\new\linqs\bin\Debug\net5.0\linqs.exe
+C:\Users\l.g.lmb5\Desktop\new\linqs\bin\Debug\net5.0\linqs.deps.json
+C:\Users\l.g.lmb5\Desktop\new\linqs\bin\Debug\net5.0\linqs.runtimeconfig.json
+C:\Users\l.g.lmb5\Desktop\new\linqs\bin\Debug\net5.0\linqs.runtimeconfig.dev.json
+C:\Users\l.g.lmb5\Desktop\new\linqs\bin\Debug\net5.0\linqs.dll
+C:\Users\l.g.lmb5\Desktop\new\linqs\bin\Debug\net5.0\ref\linqs.dll
+C:\Users\l.g.lmb5\Desktop\new\linqs\bin\Debug\net5.0\linqs.pdb
+C:\Users\l.g.lmb5\Desktop\new\linqs\obj\Debug\net5.0\linqs.dll
+C:\Users\l.g.lmb5\Desktop\new\linqs\obj\Debug\net5.0\ref\linqs.dll
+C:\Users\l.g.lmb5\Desktop\new\linqs\obj\Debug\net5.0\linqs.pdb
+C:\Users\l.g.lmb5\Desktop\new\linqs\obj\Debug\net5.0\linqs.genruntimeconfig.cache

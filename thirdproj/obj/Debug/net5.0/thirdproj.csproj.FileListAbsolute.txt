@@ -1,0 +1,16 @@
+C:\Users\l.g.lmb5\Desktop\new\thirdproj\bin\Debug\net5.0\thirdproj.exe
+C:\Users\l.g.lmb5\Desktop\new\thirdproj\bin\Debug\net5.0\thirdproj.deps.json
+C:\Users\l.g.lmb5\Desktop\new\thirdproj\bin\Debug\net5.0\thirdproj.runtimeconfig.json
+C:\Users\l.g.lmb5\Desktop\new\thirdproj\bin\Debug\net5.0\thirdproj.runtimeconfig.dev.json
+C:\Users\l.g.lmb5\Desktop\new\thirdproj\bin\Debug\net5.0\thirdproj.dll
+C:\Users\l.g.lmb5\Desktop\new\thirdproj\bin\Debug\net5.0\ref\thirdproj.dll
+C:\Users\l.g.lmb5\Desktop\new\thirdproj\bin\Debug\net5.0\thirdproj.pdb
+C:\Users\l.g.lmb5\Desktop\new\thirdproj\obj\Debug\net5.0\thirdproj.csproj.AssemblyReference.cache
+C:\Users\l.g.lmb5\Desktop\new\thirdproj\obj\Debug\net5.0\thirdproj.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\l.g.lmb5\Desktop\new\thirdproj\obj\Debug\net5.0\thirdproj.AssemblyInfoInputs.cache
+C:\Users\l.g.lmb5\Desktop\new\thirdproj\obj\Debug\net5.0\thirdproj.AssemblyInfo.cs
+C:\Users\l.g.lmb5\Desktop\new\thirdproj\obj\Debug\net5.0\thirdproj.csproj.CoreCompileInputs.cache
+C:\Users\l.g.lmb5\Desktop\new\thirdproj\obj\Debug\net5.0\thirdproj.dll
+C:\Users\l.g.lmb5\Desktop\new\thirdproj\obj\Debug\net5.0\ref\thirdproj.dll
+C:\Users\l.g.lmb5\Desktop\new\thirdproj\obj\Debug\net5.0\thirdproj.pdb
+C:\Users\l.g.lmb5\Desktop\new\thirdproj\obj\Debug\net5.0\thirdproj.genruntimeconfig.cache

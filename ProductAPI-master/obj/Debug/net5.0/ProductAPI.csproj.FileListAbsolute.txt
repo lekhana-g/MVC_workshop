@@ -1,0 +1,114 @@
+G:\CTS Data\ID006\Project\ProductAPI\bin\Debug\net5.0\appsettings.Development.json
+G:\CTS Data\ID006\Project\ProductAPI\bin\Debug\net5.0\appsettings.json
+G:\CTS Data\ID006\Project\ProductAPI\bin\Debug\net5.0\ProductAPI.exe
+G:\CTS Data\ID006\Project\ProductAPI\bin\Debug\net5.0\ProductAPI.deps.json
+G:\CTS Data\ID006\Project\ProductAPI\bin\Debug\net5.0\ProductAPI.runtimeconfig.json
+G:\CTS Data\ID006\Project\ProductAPI\bin\Debug\net5.0\ProductAPI.runtimeconfig.dev.json
+G:\CTS Data\ID006\Project\ProductAPI\bin\Debug\net5.0\ProductAPI.dll
+G:\CTS Data\ID006\Project\ProductAPI\bin\Debug\net5.0\ref\ProductAPI.dll
+G:\CTS Data\ID006\Project\ProductAPI\bin\Debug\net5.0\ProductAPI.pdb
+G:\CTS Data\ID006\Project\ProductAPI\bin\Debug\net5.0\Microsoft.OpenApi.dll
+G:\CTS Data\ID006\Project\ProductAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+G:\CTS Data\ID006\Project\ProductAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+G:\CTS Data\ID006\Project\ProductAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+G:\CTS Data\ID006\Project\ProductAPI\obj\Debug\net5.0\ProductAPI.csprojAssemblyReference.cache
+G:\CTS Data\ID006\Project\ProductAPI\obj\Debug\net5.0\ProductAPI.GeneratedMSBuildEditorConfig.editorconfig
+G:\CTS Data\ID006\Project\ProductAPI\obj\Debug\net5.0\ProductAPI.AssemblyInfoInputs.cache
+G:\CTS Data\ID006\Project\ProductAPI\obj\Debug\net5.0\ProductAPI.AssemblyInfo.cs
+G:\CTS Data\ID006\Project\ProductAPI\obj\Debug\net5.0\ProductAPI.csproj.CoreCompileInputs.cache
+G:\CTS Data\ID006\Project\ProductAPI\obj\Debug\net5.0\ProductAPI.MvcApplicationPartsAssemblyInfo.cs
+G:\CTS Data\ID006\Project\ProductAPI\obj\Debug\net5.0\ProductAPI.MvcApplicationPartsAssemblyInfo.cache
+G:\CTS Data\ID006\Project\ProductAPI\obj\Debug\net5.0\staticwebassets\ProductAPI.StaticWebAssets.Manifest.cache
+G:\CTS Data\ID006\Project\ProductAPI\obj\Debug\net5.0\staticwebassets\ProductAPI.StaticWebAssets.xml
+G:\CTS Data\ID006\Project\ProductAPI\obj\Debug\net5.0\scopedcss\bundle\ProductAPI.styles.css
+G:\CTS Data\ID006\Project\ProductAPI\obj\Debug\net5.0\ProductAPI.RazorTargetAssemblyInfo.cache
+G:\CTS Data\ID006\Project\ProductAPI\obj\Debug\net5.0\ProductAPI.csproj.CopyComplete
+G:\CTS Data\ID006\Project\ProductAPI\obj\Debug\net5.0\ProductAPI.dll
+G:\CTS Data\ID006\Project\ProductAPI\obj\Debug\net5.0\ref\ProductAPI.dll
+G:\CTS Data\ID006\Project\ProductAPI\obj\Debug\net5.0\ProductAPI.pdb
+G:\CTS Data\ID006\Project\ProductAPI\obj\Debug\net5.0\ProductAPI.genruntimeconfig.cache
+G:\CTS Data\ID006\Project\ProductAPI\bin\Debug\net5.0\NUnit3.TestAdapter.dll
+G:\CTS Data\ID006\Project\ProductAPI\bin\Debug\net5.0\NUnit3.TestAdapter.pdb
+G:\CTS Data\ID006\Project\ProductAPI\bin\Debug\net5.0\nunit.engine.dll
+G:\CTS Data\ID006\Project\ProductAPI\bin\Debug\net5.0\nunit.engine.api.dll
+G:\CTS Data\ID006\Project\ProductAPI\bin\Debug\net5.0\nunit.engine.core.dll
+G:\CTS Data\ID006\Project\ProductAPI\bin\Debug\net5.0\testcentric.engine.metadata.dll
+G:\CTS Data\ID006\Project\ProductAPI\bin\Debug\net5.0\Castle.Core.dll
+G:\CTS Data\ID006\Project\ProductAPI\bin\Debug\net5.0\Moq.dll
+G:\CTS Data\ID006\Project\ProductAPI\bin\Debug\net5.0\nunit.framework.dll
+C:\Users\l.g.lmb5\Desktop\new\ProductAPI-master\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\l.g.lmb5\Desktop\new\ProductAPI-master\bin\Debug\net5.0\appsettings.json
+C:\Users\l.g.lmb5\Desktop\new\ProductAPI-master\bin\Debug\net5.0\NUnit3.TestAdapter.dll
+C:\Users\l.g.lmb5\Desktop\new\ProductAPI-master\bin\Debug\net5.0\NUnit3.TestAdapter.pdb
+C:\Users\l.g.lmb5\Desktop\new\ProductAPI-master\bin\Debug\net5.0\nunit.engine.dll
+C:\Users\l.g.lmb5\Desktop\new\ProductAPI-master\bin\Debug\net5.0\nunit.engine.api.dll
+C:\Users\l.g.lmb5\Desktop\new\ProductAPI-master\bin\Debug\net5.0\nunit.engine.core.dll
+C:\Users\l.g.lmb5\Desktop\new\ProductAPI-master\bin\Debug\net5.0\testcentric.engine.metadata.dll
+C:\Users\l.g.lmb5\Desktop\new\ProductAPI-master\bin\Debug\net5.0\ProductAPI.exe
+C:\Users\l.g.lmb5\Desktop\new\ProductAPI-master\bin\Debug\net5.0\ProductAPI.deps.json
+C:\Users\l.g.lmb5\Desktop\new\ProductAPI-master\bin\Debug\net5.0\ProductAPI.runtimeconfig.json
+C:\Users\l.g.lmb5\Desktop\new\ProductAPI-master\bin\Debug\net5.0\ProductAPI.runtimeconfig.dev.json
+C:\Users\l.g.lmb5\Desktop\new\ProductAPI-master\bin\Debug\net5.0\ProductAPI.dll
+C:\Users\l.g.lmb5\Desktop\new\ProductAPI-master\bin\Debug\net5.0\ref\ProductAPI.dll
+C:\Users\l.g.lmb5\Desktop\new\ProductAPI-master\bin\Debug\net5.0\ProductAPI.pdb
+C:\Users\l.g.lmb5\Desktop\new\ProductAPI-master\bin\Debug\net5.0\Castle.Core.dll
+C:\Users\l.g.lmb5\Desktop\new\ProductAPI-master\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\l.g.lmb5\Desktop\new\ProductAPI-master\bin\Debug\net5.0\Moq.dll
+C:\Users\l.g.lmb5\Desktop\new\ProductAPI-master\bin\Debug\net5.0\nunit.framework.dll
+C:\Users\l.g.lmb5\Desktop\new\ProductAPI-master\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\l.g.lmb5\Desktop\new\ProductAPI-master\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\l.g.lmb5\Desktop\new\ProductAPI-master\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\l.g.lmb5\Desktop\new\ProductAPI-master\obj\Debug\net5.0\ProductAPI.csproj.AssemblyReference.cache
+C:\Users\l.g.lmb5\Desktop\new\ProductAPI-master\obj\Debug\net5.0\ProductAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\l.g.lmb5\Desktop\new\ProductAPI-master\obj\Debug\net5.0\ProductAPI.AssemblyInfoInputs.cache
+C:\Users\l.g.lmb5\Desktop\new\ProductAPI-master\obj\Debug\net5.0\ProductAPI.AssemblyInfo.cs
+C:\Users\l.g.lmb5\Desktop\new\ProductAPI-master\obj\Debug\net5.0\ProductAPI.csproj.CoreCompileInputs.cache
+C:\Users\l.g.lmb5\Desktop\new\ProductAPI-master\obj\Debug\net5.0\ProductAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\l.g.lmb5\Desktop\new\ProductAPI-master\obj\Debug\net5.0\ProductAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\l.g.lmb5\Desktop\new\ProductAPI-master\obj\Debug\net5.0\staticwebassets\ProductAPI.StaticWebAssets.Manifest.cache
+C:\Users\l.g.lmb5\Desktop\new\ProductAPI-master\obj\Debug\net5.0\staticwebassets\ProductAPI.StaticWebAssets.xml
+C:\Users\l.g.lmb5\Desktop\new\ProductAPI-master\obj\Debug\net5.0\scopedcss\bundle\ProductAPI.styles.css
+C:\Users\l.g.lmb5\Desktop\new\ProductAPI-master\obj\Debug\net5.0\ProductAPI.RazorTargetAssemblyInfo.cache
+C:\Users\l.g.lmb5\Desktop\new\ProductAPI-master\obj\Debug\net5.0\ProductAPI.csproj.CopyComplete
+C:\Users\l.g.lmb5\Desktop\new\ProductAPI-master\obj\Debug\net5.0\ProductAPI.dll
+C:\Users\l.g.lmb5\Desktop\new\ProductAPI-master\obj\Debug\net5.0\ref\ProductAPI.dll
+C:\Users\l.g.lmb5\Desktop\new\ProductAPI-master\obj\Debug\net5.0\ProductAPI.pdb
+C:\Users\l.g.lmb5\Desktop\new\ProductAPI-master\obj\Debug\net5.0\ProductAPI.genruntimeconfig.cache
+C:\Users\l.g.lmb5\Desktop\mvc\ProductAPI-master\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\l.g.lmb5\Desktop\mvc\ProductAPI-master\bin\Debug\net5.0\appsettings.json
+C:\Users\l.g.lmb5\Desktop\mvc\ProductAPI-master\bin\Debug\net5.0\NUnit3.TestAdapter.dll
+C:\Users\l.g.lmb5\Desktop\mvc\ProductAPI-master\bin\Debug\net5.0\NUnit3.TestAdapter.pdb
+C:\Users\l.g.lmb5\Desktop\mvc\ProductAPI-master\bin\Debug\net5.0\nunit.engine.dll
+C:\Users\l.g.lmb5\Desktop\mvc\ProductAPI-master\bin\Debug\net5.0\nunit.engine.api.dll
+C:\Users\l.g.lmb5\Desktop\mvc\ProductAPI-master\bin\Debug\net5.0\nunit.engine.core.dll
+C:\Users\l.g.lmb5\Desktop\mvc\ProductAPI-master\bin\Debug\net5.0\testcentric.engine.metadata.dll
+C:\Users\l.g.lmb5\Desktop\mvc\ProductAPI-master\bin\Debug\net5.0\ProductAPI.exe
+C:\Users\l.g.lmb5\Desktop\mvc\ProductAPI-master\bin\Debug\net5.0\ProductAPI.deps.json
+C:\Users\l.g.lmb5\Desktop\mvc\ProductAPI-master\bin\Debug\net5.0\ProductAPI.runtimeconfig.json
+C:\Users\l.g.lmb5\Desktop\mvc\ProductAPI-master\bin\Debug\net5.0\ProductAPI.runtimeconfig.dev.json
+C:\Users\l.g.lmb5\Desktop\mvc\ProductAPI-master\bin\Debug\net5.0\ProductAPI.dll
+C:\Users\l.g.lmb5\Desktop\mvc\ProductAPI-master\bin\Debug\net5.0\ref\ProductAPI.dll
+C:\Users\l.g.lmb5\Desktop\mvc\ProductAPI-master\bin\Debug\net5.0\ProductAPI.pdb
+C:\Users\l.g.lmb5\Desktop\mvc\ProductAPI-master\bin\Debug\net5.0\Castle.Core.dll
+C:\Users\l.g.lmb5\Desktop\mvc\ProductAPI-master\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\l.g.lmb5\Desktop\mvc\ProductAPI-master\bin\Debug\net5.0\Moq.dll
+C:\Users\l.g.lmb5\Desktop\mvc\ProductAPI-master\bin\Debug\net5.0\nunit.framework.dll
+C:\Users\l.g.lmb5\Desktop\mvc\ProductAPI-master\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\l.g.lmb5\Desktop\mvc\ProductAPI-master\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\l.g.lmb5\Desktop\mvc\ProductAPI-master\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\l.g.lmb5\Desktop\mvc\ProductAPI-master\obj\Debug\net5.0\ProductAPI.csproj.AssemblyReference.cache
+C:\Users\l.g.lmb5\Desktop\mvc\ProductAPI-master\obj\Debug\net5.0\ProductAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\l.g.lmb5\Desktop\mvc\ProductAPI-master\obj\Debug\net5.0\ProductAPI.AssemblyInfoInputs.cache
+C:\Users\l.g.lmb5\Desktop\mvc\ProductAPI-master\obj\Debug\net5.0\ProductAPI.AssemblyInfo.cs
+C:\Users\l.g.lmb5\Desktop\mvc\ProductAPI-master\obj\Debug\net5.0\ProductAPI.csproj.CoreCompileInputs.cache
+C:\Users\l.g.lmb5\Desktop\mvc\ProductAPI-master\obj\Debug\net5.0\ProductAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\l.g.lmb5\Desktop\mvc\ProductAPI-master\obj\Debug\net5.0\ProductAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\l.g.lmb5\Desktop\mvc\ProductAPI-master\obj\Debug\net5.0\staticwebassets\ProductAPI.StaticWebAssets.Manifest.cache
+C:\Users\l.g.lmb5\Desktop\mvc\ProductAPI-master\obj\Debug\net5.0\staticwebassets\ProductAPI.StaticWebAssets.xml
+C:\Users\l.g.lmb5\Desktop\mvc\ProductAPI-master\obj\Debug\net5.0\scopedcss\bundle\ProductAPI.styles.css
+C:\Users\l.g.lmb5\Desktop\mvc\ProductAPI-master\obj\Debug\net5.0\ProductAPI.RazorTargetAssemblyInfo.cache
+C:\Users\l.g.lmb5\Desktop\mvc\ProductAPI-master\obj\Debug\net5.0\ProductAPI.csproj.CopyComplete
+C:\Users\l.g.lmb5\Desktop\mvc\ProductAPI-master\obj\Debug\net5.0\ProductAPI.dll
+C:\Users\l.g.lmb5\Desktop\mvc\ProductAPI-master\obj\Debug\net5.0\ref\ProductAPI.dll
+C:\Users\l.g.lmb5\Desktop\mvc\ProductAPI-master\obj\Debug\net5.0\ProductAPI.pdb
+C:\Users\l.g.lmb5\Desktop\mvc\ProductAPI-master\obj\Debug\net5.0\ProductAPI.genruntimeconfig.cache

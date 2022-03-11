@@ -1,0 +1,66 @@
+@model finalmvc.Models.BookF
+
+@{
+    Layout="CustomerLayout";
+    ViewData["Title"] = "Book";
+}
+<br>
+<style>
+body{
+    background-color:cadetblue;
+}
+h4{
+    text-align:"center";
+}
+
+</style>
+<h4>Book Flight</h4>
+<hr />
+<div class="row justify-content-center">
+    <div class="col-md-4 col-md-offset-5 align-center">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Bid" class="control-label"></label>
+                <input asp-for="Bid" class="form-control" readonly/>
+                <span asp-validation-for="Bid" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Fid" class="control-label"></label>
+                <input asp-for="Fid" class="form-control" readonly/>
+                <span asp-validation-for="Fid" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Doj" class="control-label"></label>
+                <input asp-for="Doj" class="form-control" readonly/>
+                <span asp-validation-for="Doj" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Count" class="control-label">Number of passengers</label>
+                <input asp-for="Count" class="form-control" placeholder="Enter number of passenger"/>
+                <span asp-validation-for="Count" class="text-danger"></span>
+            </div>
+            <!--<div class="form-group">
+                <label asp-for="Totalvalue" class="control-label"></label>
+                <input asp-for="Totalvalue" class="form-control" />
+                <span asp-validation-for="Totalvalue" class="text-danger"></span>
+            </div>-->
+            <div class="form-group">
+                <label asp-for="Cid" class="control-label"></label>
+                <input asp-for="Cid" class="form-control" readonly/>
+                <span asp-validation-for="Cid" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Book Ticket" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="getflights">Back to Flight details</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

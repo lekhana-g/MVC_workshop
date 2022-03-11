@@ -1,0 +1,74 @@
+@model finalmvc.Models.FlightD
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout="AdminLayout";
+}
+<style>
+    body{
+    background-color:cadetblue;
+}
+a{
+    color:black;
+}
+</style>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <hr />
+    <dl class="row justify-content-center">
+        <dt class = "col-sm-2 col-md-offset-5 align-center">
+            @Html.DisplayNameFor(model => model.Fid)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Fid)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Fname)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Fname)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Source)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Source)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Destination)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Destination)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Departuretime)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Departuretime)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Arrivaltime)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Arrivaltime)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Totalcapacity)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Totalcapacity)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Costperseat)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Costperseat)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-action="GetFlights">Back to List</a>
+    </form>
+</div>

@@ -1,0 +1,64 @@
+@model IEnumerable<flightreservation.Models.BookingDetail>
+
+@{
+    Layout="CustomerLayout";
+    ViewData["Title"] = "getAllBookings";
+}
+
+<h1>Booking details</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Bookingid)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Flightid)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Routeid)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Doj)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Numberofpassengers)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Totalvalue)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Customerid)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Bookingid)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Flightid)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Routeid)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Doj)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Numberofpassengers)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Totalvalue)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Customerid)
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

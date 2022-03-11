@@ -1,0 +1,441 @@
+.NET Framework/.NET core
+C# basics
+ OOPS
+Exception handling 
+MVC Core
+EF Core
+WEB API Core
+
+.NET Framework (windows)
+1. Platform - develop, compile, execute
+2. framework - collection of Base class libraries,Languages(C#, VB, F#, J#)
+C#.NET source code - C# Compiler - MSIL/CIL ( microsoft Intermediate Language/Common)
+Vb.NET source code - VB compiler - MSIL
+F#.NET
+
+CIL --> Runtime Environment --> EXecutable code
+
+CLR - Common Language Runtime -> JIT ( Just in time compiler)
+
+VS 2022
+
+.NET core - platform Independent(Windows), Mac OS, Linux (Debian, fedora, ubuntu)
+IDE - Integrated Development Environment (VS code)
+
+Types of Application:
+1. Desktop (Console (no GUI) /Windows(GUI))
+2. Web Applications
+3. Mobile Apps(Xamarin)
+
+Source code - .cs  -> compiled --> Executable (.dll/.exe)
+
+executable - own memory which OS can call
+dll - reusable piece of code 
+
+Assembly - exe/dll
+
+1. source code
+2. build - compile, namespaces are linked, unit tests
+build your project - bin folder gets created
+Build Artifacts - .dll, .exe, .pdb, json(configuration files)
+3. execution - output
+
+Dotnet Commands:
+
+dotnet --version
+dotnet new console --name firstprj - //to create a console project
+dotnet build
+dotnet run
+
+Datatypes in .NET:
+1. Value Types - int, single, double, decimal,datetime,
+ boolean, float, struct, datetime,enum
+int i=10;
+2. Reference Types - string, object, class, interface, delegate
+string s="Ram";
+
+Type conversions:
+1. Implicit 
+int i=10;
+float f=i;
+
+2. Explicit
+float f1=90.34f;
+int i1=f1;
+
+3. Boxing: Converting a value type to a reference type
+object is the super datatype. Any other datatypes can be stored in object
+without type conversion
+
+4. UnBoxing - Converting a ref type to a value type
+
+OOPS:
+1. Class - generalization
+2. Object - Specialization
+3. Data Encapsulation - Class - Member variables+member functions
+4. Data Abstraction - Access specifiers
+1. Private - all member variables in a class are by default private
+2. protected
+3. Internal - all classess are internal by default and they can be public
+4. public - all namespaces 
+
+Constructor:
+1. It is a special method which has the same name as the class name
+2. It is used to initialize the member variables
+3. It is automatically called/invoked when the object is created(Instantiation)
+
+To access the private member variables outside the class, we need properties
+1. Accessor - get
+2. Mutator - set
+
+Virtual methods have their own definitions in the base class and also allow the
+derived class to override them.
+
+If there is a virtual method in the base class :
+1. override keyword-> redefine the base class method
+2. new keyword -> altogether a new method
+
+If the reference variable of the base class, 
+1. override keyword - derived class method is called
+2. new keyword - base class method is called (priority is for base)
+
+Methods without Definition is called an abstract method.
+If a class contains atleast one abstract method, the class becomes abstract.
+
+Abstract class can contain both abstract and non-abstract methods.
+We cannot instantiate abstract classes.
+Shape s=new Shape();
+s.CalculateArea(); //no definition
+
+Abstract classes has to be inherited.
+
+Interface:
+Its a collection of abstract methods (definitions to be included)
+
+Its a set of specifications/rules that a class which implements the interface
+should follow.
+
+All the methods of the interface are public by default.
+
+If a class implementes an interface, it should define all the methods of the interface.
+
+Interface acts as an alternate to multiple inheritance 
+
+Interface smartphone
+{
+void wifi();
+bool camera();
+bool patternlock();
+
+}
+
+class redmi:smartphone
+{
+void wifi(){}
+bool camera(){}
+bool patternlock(){}
+}
+
+
+class Apple:smartphone
+{
+void wifi(){}
+bool camera(){}
+bool patternlock(){}
+}
+
+
+
+class client
+{
+smartphone s=new redmi();
+smartphone s1=new Apple();
+}
+
+Types of classes:
+1. Abstract class
+It has to be inherited and cannot be instantiated.
+2. Sealed class
+Sealed class is a class which has to be instantiated and cannot be inherited
+3. Static Class
+can contain only static members (property,method) - class members
+classname.membername
+This can neither be inherited nor be instantiated.
+
+Destructors:
+1. ~classname() -> once the lifetime of the object is done
+2. GC.Collect() -> reclaim the used memory
+3. Finalize() -> automatically invoked 
+4. dispose() -> release the resources.
+
+Exception - runtime errors
+Handle the exceptions
+
+Exception is the base class
+1. SystemException - built in 
+2. ApplicationException - user defined
+
+Handle Exceptions:
+1. try{} - statements which might cause exception
+2. catch() - exact exception handler
+3. finally{} - set of statements which gets exectued irrespective of exception
+occuring or not
+
+enum defines the list of values that a variable can take.
+
+Non Generic Collections:(C# 2.0)
+1. ArrayList - 
+2. Hashtable
+3. stack
+4. queue
+
+Generic Collections (C# 3.0)
+1. List<T>
+2. Dictionary<T>
+3. Hashset<T>
+
+Generic Constraints:
+MyList<T> :where T:class
+
+File Handling:
+1. FileStream class - 
+1. filename - location
+2. filemode
+3. fileaccess
+
+2. StreamWriter/StreamReader
+Binarywriter/BinaryReader
+XMLWriter/XMLReader
+
+Delegates:
+
+Function pointers  -> a pointer to function's memory
+event -> Delegate - > function
+event - i =10 , 11
+
+LINQ: - Language Integrated Query
+Datasource can be anything - LINQ to SQL, LINQ to Objects, LINQ to collections,
+LINQ to entites, LINQ to XML
+
+SQL - select * from tablename where condition (database)
+
+1. Query Syntax
+2. Method Syntax 
+
+Query Syntax:
+from loopvar in collection/entities/sql/xml
+where condition
+select loopvar
+
+from i in numbers
+where i%2==0
+select i
+
+var and dynamic difference
+var - compilation time, it takes its value
+dynamic - takes value at runtime
+
+ADO.NET - fetch from db
+
+Entity Framework core
+ORM - Object Relation Mapping
+
+Object - instance of a class
+Relation - table of back end
+Mapping - Every column of a table is mapped as a property of a class
+Entity Framework - built in classes and methods
+
+2 approaches:
+1. Database first approach - db is present 
+2. code first approach - create db from code(class)
+
+EF Core: ( 3 packages) (Nuget Package Manager)
+
+1. EF Core
+2. EF Core SQL server
+3. EF Core Tools
+
+dotnet add package
+dotnet install 
+
+Classname:
+1. DbContext- front end db
+2. DbSet - select * from tablename
+
+FISContext:DbContext
+DbSet<Employees> - Recordset from database
+
+
+dotnet add package Microsoft.EntityFrameworkCore -v 5.0.13 
+dotnet add package Microsoft.EntityFrameworkCore.tools -v 5.0.12
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer -v 5.0.12
+dotnet add package Microsoft.EntityFrameworkCore.Design -v 5.0.12
+
+//Scaffold-DbContext "Server=.;Database=FarePortal;Trusted_Connection=True;"Microsoft.EntityFrameworkCore.SqlServer -OutputDir Model
+
+//UserID=abc;Password=def;
+
+dotnet tool install --global dotnet-ef
+dotnet ef dbcontext scaffold "Server=.;Database=FarePortal;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -o Models
+
+dotnet add package AutoMapper.Extensions.Microsoft.DependencyInjection --version 8.0.0
+
+Types of Views:(EF core - 5 templates)
+1. List /Index - select * from table - HTTPGet
+2. Create  - add - 
+3. Edit
+4. Delete
+5. Details
+
+dotnet tool install -g dotnet-aspnet-codegenerator --version 5.0.2
+dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design --version 5.0.2
+
+To scaffolder a controller, we need to use the command below:
+dotnet aspnet-codegenerator controller -name EmpsController --relativeFolderPath Controllers --useDefaultLayout --referenceScriptLibraries --readWriteActions
+
+To scaffolder a view, the command is like below:
+dotnet aspnet-codegenerator view getallEmps List -m Employee -outDir Views\Employee --useDefaultLayout --referenceScriptLibraries
+dotnet aspnet-codegenerator view Create Create -m Employee -outDir Views\Employee --useDefaultLayout --referenceScriptLibraries
+dotnet aspnet-codegenerator view Edit Edit -m Employee -outDir Views\Employee --useDefaultLayout --referenceScriptLibraries
+dotnet aspnet-codegenerator view Details Details -m Employee -outDir Views\Employee --useDefaultLayout --referenceScriptLibraries
+dotnet aspnet-codegenerator view Delete Delete-m Employee -outDir Views\Employee --useDefaultLayout --referenceScriptLibraries
+
+
+dotnet-aspnet-codegenerator razorpage MyEdit Edit -m Movie -dc RazorPagesMovieContext -outDir Pages/Movies
+
+Identity Authentication:
+https://urldefense.proofpoint.com/v2/url?u=https-3A__jakeydocs.readthedocs.io_en_latest_security_authentication_identity.html-23-3A-7E-3Atext-3DASP.NET-2520Core-2520Identity-2520is-2CMicrosoft-2520Account-252C-2520Twitter-2520and-2520more&d=DwIGAg&c=iBlh5sfyJetM3CZrWQ7qPRSW4DDbeEqhetx-pU5sAiQ&r=M3i1JYYfxlPUcR1W7pDSbGgpUrV8Fkdje21Mb4ja9QQ&m=UDgK-nIKwTHpExoySzh65ZWOS-aJK6HjO5wMS0oQW8Rxy82nqsVdoOB1cR8fB40E&s=Jt7s0mFzx5-jY1nhyyfuJ1F-_ASTlI_CYpL_uWQYyWk&e= .
+
+
+1. Controller  
+private readonly FarePortalContext db;
+       public EmployeeController(FarePortalContext _db)
+       {
+            db=_db;
+       }
+
+2. startup.cs  
+services.AddDbContext<FarePortalContext>(options =>
+       options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
+
+3. Appsettings.json
+ "ConnectionStrings": {
+    "DefaultConnection": "Server=.;Database=FarePortal;Trusted_Connection=True;"
+  },
+
+
+Views with Models are called Strongly typed views.
+
+data from one page to another page
+1. session - startup.cs - addsession, usesession 
+2. cookies - 
+
+services.AddHttpContextAccessor();
+
+Routing 
+startup.cs - controller name - action name 
+Attribute based routing - [Route()]
+
+[HttpGet] - [HttpPost] - action verbs
+
+
+
+directly from URL - attribute based routing 
+
+rerouted from other pages - 
+
+https://urldefense.proofpoint.com/v2/url?u=http-3A__localhost-3A5001-255Careaname-255Ccontrollername-255Cactionmethodname&d=DwIGAg&c=iBlh5sfyJetM3CZrWQ7qPRSW4DDbeEqhetx-pU5sAiQ&r=M3i1JYYfxlPUcR1W7pDSbGgpUrV8Fkdje21Mb4ja9QQ&m=UDgK-nIKwTHpExoySzh65ZWOS-aJK6HjO5wMS0oQW8Rxy82nqsVdoOB1cR8fB40E&s=ztQXKYL1cTZ_qkyNoPatkzKJhH8r7Uhf-A8QJeUgx0M&e= 
+
+
+Web API:
+
+It acts as data source where consumers can subscribe to the url to fetch the data
+
+dotnet new webapi --name firstapi
+
+RESTful services - 4 HTTP Verbs
+Representation of State Transfer - Product
+1. newly added product - insert - httppost
+2. deleted - httpdelete
+3. modified - httpput
+4. get - select  from tablename
+
+There are no views 
+format in which API - Json, XML, Bson
+[{"name":"Radha","Age":23,"City":"Pune"},{"name":"Radha","Age":23,"City":"Pune"}]
+
+API supports only HTTP Protocol
+
+swagger - testing cum documentation tool
+postman/fiddler - API testing tool
+
+
+Status Codes:
+200 series- success codes
+400 - error in request
+500 - error in server
+
+dotnet dev-certs https --clean
+dotnet dev-certs https -t
+
+https://urldefense.proofpoint.com/v2/url?u=https-3A__www.yogihosting.com_aspnet-2Dcore-2Dconsume-2Dapi-2Djquery_&d=DwIGAg&c=iBlh5sfyJetM3CZrWQ7qPRSW4DDbeEqhetx-pU5sAiQ&r=M3i1JYYfxlPUcR1W7pDSbGgpUrV8Fkdje21Mb4ja9QQ&m=UDgK-nIKwTHpExoySzh65ZWOS-aJK6HjO5wMS0oQW8Rxy82nqsVdoOB1cR8fB40E&s=QPahPKQckPI32FZvXV7-xs_MIsXLglTjM3pk3LlUsrI&e= 
+
+
+app.UseCors(options => options.WithOrigins("https://urldefense.proofpoint.com/v2/url?u=http-3A__localhost-3A4200_-2522-29.AllowAnyMethod-28-29.AllowAnyHeader-28-29.AllowAnyOrigin-28&d=DwIGAg&c=iBlh5sfyJetM3CZrWQ7qPRSW4DDbeEqhetx-pU5sAiQ&r=M3i1JYYfxlPUcR1W7pDSbGgpUrV8Fkdje21Mb4ja9QQ&m=UDgK-nIKwTHpExoySzh65ZWOS-aJK6HjO5wMS0oQW8Rxy82nqsVdoOB1cR8fB40E&s=PxP_QJ5fWyxB3yy8gdTdH-nYvY_U4UNV5qcdXg8xloo&e= ));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

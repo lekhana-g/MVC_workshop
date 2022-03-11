@@ -1,0 +1,73 @@
+@model flightreservation.Models.FlightDetail
+
+@{
+    Layout="AdminLayout";
+    ViewData["Title"] = "Create";
+}
+
+<h1>Enter New Flight Details</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Flightid" class="control-label">Enter Flight-id</label>
+                <input asp-for="Flightid" class="form-control" />
+                <span asp-validation-for="Flightid" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Flightname" class="control-label">Enter Flight name</label>
+                <input asp-for="Flightname" class="form-control" required />
+                <span asp-validation-for="Flightname" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Source" class="control-label">Enter Source</label>
+                <input asp-for="Source" class="form-control" required />
+                <span asp-validation-for="Source" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Destination" class="control-label">Enter Destination</label>
+                <input asp-for="Destination" class="form-control" required />
+                <span asp-validation-for="Destination" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Departuretime" class="control-label">Departure time</label>
+                <input asp-for="Departuretime" class="form-control" required/>
+                <span asp-validation-for="Departuretime" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Arrivaltime" class="control-label">Arrival time</label>
+                <input asp-for="Arrivaltime" class="form-control" required/>
+                <span asp-validation-for="Arrivaltime" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Totalcapacity" class="control-label">Enter total capacity</label>
+                <input asp-for="Totalcapacity" class="form-control" required/>
+                <span asp-validation-for="Totalcapacity" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Costperseat" class="control-label">Enter cost per seat</label>
+                <input asp-for="Costperseat" class="form-control" required/>
+                <span asp-validation-for="Costperseat" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Imagepath" class="control-label">Choose image path</label>
+                <input asp-for="Imagepath" type="file" class="form-control" />
+                <span asp-validation-for="Imagepath" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Add Flight" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="getallFlights">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

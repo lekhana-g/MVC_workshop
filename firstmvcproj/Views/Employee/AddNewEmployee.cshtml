@@ -1,0 +1,18 @@
+@model firstmvcproj.Models.Emp;
+<form asp-action="AddNewEmployee">
+    <div>
+    <label asp-for="eid" class="control-label">EMP ID: </label>
+    <input asp-for="eid" class="form-control">
+</div>
+<div>
+    <label asp-for="name" class="control-label">Name: </label>
+    <input asp-for="name" class="form-control">
+</div>
+<div>
+<label asp-for="salary" class="control-label">Salary: </label>
+    <input asp-for="salary" class="form-control">
+</div>
+<div>
+    <input type="submit" value="ADD Employee">
+</div>
+</form>

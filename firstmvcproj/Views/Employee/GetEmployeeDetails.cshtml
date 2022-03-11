@@ -1,0 +1,25 @@
+@model IEnumerable<firstmvcproj.Models.Emp>
+    <h1>
+        <a asp-action="AddNewEmployee">Add a new employee</a>
+    </h1>
+    <table class="table">
+        <thead>
+            <tr>
+                <th> Employee id </th>
+                <th> Name </th>
+                <!--<th> Salary </th>-->
+            </tr>
+        </thead>
+        <tbody>
+            
+            @foreach(var item in Model){
+                <tr>
+            <td>@item.eid</td>
+            <td>@item.name</td>
+            <!--<td>@item.salary</td>-->
+            <td><a asp-action="KnowMore" asp-route-id="@item.eid">Click here to know more</a></td>
+            <td><a asp-action="Delete" asp-route-id="@item.eid">Delete</a></td>
+            </tr>
+            }
+        </tbody>
+    </table>
